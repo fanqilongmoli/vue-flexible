@@ -45,10 +45,11 @@ font-size。<br>
 假如设计稿的宽度是750px，此时1rem应该等于75px。假如量的某个元素的宽度是150px，
 那么在css里面吨关于的这个元素的宽度就是 width:2rem; <br>
 注意：<br>
-1.检查一些html的head中，如果有meta name="viewport"标签，需要将它注释掉，
+    1.检查一些html的head中，如果有meta name="viewport"标签，需要将它注释掉，
 因为如果有这个标签的话，lib-flexible就会默认使用这个标签。
 而我们需要使用lib-flexible自己生成的标签。<br>
-2.因为html的font-size是根据屏幕宽度除以10计算出来的，所以我们需要设置页面的最大宽度是10rem。<br>
+    2.因为html的font-size是根据屏幕宽度除以10计算出来的，所以我们需要设置页面的最大宽度是10rem。<br>
+    3.如果个别地方不想转化px。可以简单的使用大写的 PX 或 Px 
 ### 使用 postcss-px2rem-exclude
 #### 正确的配置位置是项目根目录下的postcss.config.js文件，如果你的项目没有生成这个独立文件，就需要在你的package.js里设置
 ```
@@ -78,3 +79,7 @@ package.json
   },
 
 ```
+
+## 参考
+[使用Flexible实现手淘H5页面的终端适配](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
+[vue移动端屏幕适配](https://blog.csdn.net/qq345930282/article/details/82219686)
