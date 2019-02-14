@@ -81,6 +81,6 @@ package.json
 ```
 
 ## 参考
-[使用Flexible实现手淘H5页面的终端适配](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
-[如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
-[vue移动端屏幕适配](https://blog.csdn.net/qq345930282/article/details/82219686)
+[使用Flexible实现手淘H5页面的终端适配](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)<br>
+[如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)<br>
+[vue移动端屏幕适配](https://blog.csdn.net/qq345930282/article/details/82219686)<br>
